@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+<script src="app.js">
+</script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,26 +12,30 @@
 <body>
     <div class="row">
         <div class="col"> 
-            <p>Sprinkles per Second (SPS)</p>
-            <p>Sprinkles per Click (SPC)</p>
+            <p id="sprinklesPerClick">Sprinkles per Click (SPC)</p>
+            <p id="sprinklesPerSecond">Sprinkles per Second (SPS)</p>
         </div>    
         <div class="col d-flex justify-content-center"> 
             <h3>Sugar Scraper</h3>
-            <button id="donut-button" type="button"><img src="images/pink_donut.png" alt="a donut"></button>
+            <button onclick="scrapeSprinkles()" id="donut-button" type="button"><img src="images/pink_donut.png" alt="a donut"></button>
         </div>    
         <div class="col d-flex justify-content-around"> 
             <p>Sprinkles:</p>
+            <p id="sprinklesBalance"> </p>
         </div> 
     </div>   
     <div class="row">
         <div class="col d-flex justify-content-around">
-            <button type="button" class="btn btn-info">Button1</button>
+            <button onclick="upgradeSpoon" type="button" class="btn btn-info">Upgrade Spoon +10 SPS </button>
+            <p>Cost: 50 Sprinkles</p>
         </div>
         <div class="col d-flex justify-content-around">
-            <button type="button" class="btn btn-info">Button2</button>
+            <button type="button" class="btn btn-info">Spatula (500 Sprinkles) </button>
+            <p>Cost: 200 Sprinkles</p>
         </div>
         <div class="col d-flex justify-content-around">
-            <button type="button" class="btn btn-info">Button3</button>
+            <button type="button" class="btn btn-info">Bulldozer (1000 Sprinkles) </button>
+            <p>Cost: 700 Sprinkles</p>
         </div>
     </div>
     </div>

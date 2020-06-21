@@ -13,32 +13,35 @@
     <div class="spacer5"></div>
     <div class="row">
         <div class="col d-flex justify-content-around">
-            <p id="sprinklesPerClick">Sprinkles per Click (SPC)</p>
+            <p>Sprinkles per Click (SPC):</p>
+            <p id="sprinklesPerClick"></p>
         </div>    
         <div class="col d-flex justify-content-around">
             <h3>Sugar Scraper</h3>
         </div>    
         <div class="col d-flex justify-content-around">
             <p>Sprinkles:</p>
+            <p id="sprinklesBalance"></p>
         </div> 
     </div>   
     <div class="row">
         <div class="col d-flex justify-content-around">
-            <p id="sprinklesPerSecond">Sprinkles per Second (SPS)</p> 
+            <p>Sprinkles per Second (SPS):</p> 
+            <p id="sprinklesPerSecond"></p> 
         </div>    
         <div class="align-self-center">
             <button onclick="scrapeSprinkles()" id="donut-button" type="button"><img src="images/pink_donut.png" alt="a donut"></button>
         </div>    
         <div class="col d-flex justify-content-around">
-            <p id="sprinklesBalance"> </p>
+            <p id="totalSeconds"></p>
         </div> 
     </div>  
     <div class="row">
         <div class="col d-flex justify-content-around">
-            <button onclick="upgradeSpoon" type="button" class="btn btn-info">Upgrade Spoon +10 SPS </button>
+            <button onclick="upgradeSpoon()" type="button" class="btn btn-info">Upgrade Spoon +10 SPC </button>
         </div>
         <div class="col d-flex justify-content-around">
-            <button type="button" class="btn btn-info">Spatula (500 Sprinkles) </button>
+            <button onclick="upgradeSpatula()"type="button" class="btn btn-info">Spatula +10 SPS </button>
         </div>
         <div class="col d-flex justify-content-around">
             <button type="button" class="btn btn-info">Bulldozer (1000 Sprinkles) </button>

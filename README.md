@@ -7,7 +7,7 @@ Wanted to try a little project to try out some web development
 Inspired by this game http://orteil.dashnet.org/cookieclicker/
 
 ## Build status
-Currently being developed on VSCode and launching on localhost with liver server
+Currently being developed on VSCode and launching on localhost with live server
 
 ## Tech/framework used
 <b>Built with</b>

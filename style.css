@@ -12,3 +12,16 @@ button {
 .spacer5 {
     height: 15px;
   }
+
+  body {
+    font-family: 'Tangerine', serif;
+    font-size: 96px;
+    text-shadow: 4px 4px 4px #aaa;
+  }
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+}
+p {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}

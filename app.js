@@ -15,7 +15,6 @@ function increaseSprinklesPerSecond() {
     setSprinklesPerSecond()
     setTotalSeconds()
 }
-
   
 function scrapeSprinkles(){
     // increment sprinkles when the donut is clicked

@@ -8,13 +8,16 @@ button {
     padding: 10% 10% 10% 10%;
     margin: 0px auto;
 }
+button:focus {
+    outline: none;
+    }
 
 .spacer5 {
     height: 15px;
   }
 
   body {
-    font-family: 'Tangerine', serif;
+    font-family: 'Pacifico', cursive;
     font-size: 96px;
     text-shadow: 4px 4px 4px #aaa;
   }
